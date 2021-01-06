@@ -1,8 +1,10 @@
 # Route_Planner
- Implematation of the A* Search Algorithm to solve Google Maps problem.
+ Implematation of the A* Search Algorithm to solve Mapping problem.
+
+![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
 
 ## Introduction
-Implematation of the A* Search Algorithm to solve Search problem. One particular search problem is especially relevant to self driving cars: finding the best route from point A to point B. When this lesson is over you will take everything you've learned in this course and actually implement a Google-maps style route planner.
+Implematation of the A* Search Algorithm to solve Search problem. One particular search problem is especially relevant to self driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explaination can be learn at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
 
 ### The A* Search
 A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(bᵈ) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases. (retrived from Wikipedia.com)
@@ -74,7 +76,7 @@ pip install plotly
 
 - The notebook will execute in Markdown form and include the visualization of the map.
 
-![alt]()
+![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
 
 - The program was working perfectly fine when I code it in the Udacity.com workspace. You may try it [here](https://classroom.udacity.com/nanodegrees/nd113/parts/ff875ac7-e7c7-40ec-8a79-8fce37d93bb2/modules/e3ba7f5e-56e5-4a40-9b21-0f7a130d3074/lessons/b1e11f40-418c-4292-af6f-56ac2603e868/concepts/498d1011-019d-4768-bd46-f476b68c2c4b) if you are member of Udacity. 
 
