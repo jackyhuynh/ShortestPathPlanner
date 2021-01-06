@@ -1,7 +1,6 @@
 # Route_Planner
  Implematation of the A* Search Algorithm to solve Mapping problem.
 
-![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
 
 ## Introduction
 Implematation of the A* Search Algorithm to solve Search problem. One particular search problem is especially relevant to self driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explaination can be learn at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
@@ -9,6 +8,9 @@ Implematation of the A* Search Algorithm to solve Search problem. One particular
 ### The A* Search
 A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(bᵈ) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases. (retrived from Wikipedia.com)
 
+Image retrived from Udacity.com
+
+![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
 
 ## Technology
 - Python 
@@ -18,7 +20,6 @@ A* (pronounced "A-star") is a graph traversal and path search algorithm, which i
 - Machine Learning
 - AI
 - Localization
-- Prediction
 - Data Structures
 
 ## Getting Started
@@ -82,7 +83,7 @@ pip install plotly
 
 ## Deployment
 
-Route PLanner class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or self-driving car. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still help human each day.
+Route PLanner class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still helping human each day.
 Please refer to my notebook for a better understanding of implementation.
 
 ## Built With
@@ -104,7 +105,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Format
 my README.md format was retrieved from
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -112,7 +112,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Udacity.com for design an outstanding program for Students.
 
