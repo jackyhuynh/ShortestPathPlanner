@@ -1,9 +1,7 @@
 # Route_Planner
- Implematation of the A* Search Algorithm to solve Mapping problem.
-
 
 ## Introduction
-Implematation of the A* Search Algorithm to solve Search problem. One particular search problem is especially relevant to self driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explaination can be learn at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
+Implementation of the A* Search Algorithm to solve the Route Search problem. One particular search problem is especially relevant to self-driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explanation can be learned at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
 
 ### The A* Search
 A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(bᵈ) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases. (retrived from Wikipedia.com)
