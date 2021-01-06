@@ -1,5 +1,11 @@
 # Route_Planner
- Implematation of the A* Search Algorithm to solve Google Maps problem.
+
+## Introduction
+Implematation of the A* Search Algorithm to solve Search problem. One particular search problem is especially relevant to self driving cars: finding the best route from point A to point B. When this lesson is over you will take everything you've learned in this course and actually implement a Google-maps style route planner.
+
+### The A* Search
+A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(bᵈ) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases. (retrived from Wikipedia.com)
+
 
 ## Technology
 - Python 
@@ -39,42 +45,14 @@ Explain how to run the automated tests for this system:
 ```
 Ctrl + Enter
 ```
-- If this happen (most likely it is going to happen). I sucessful run this code in a virtual machine. However, when I download it to my computer and deploy it to GitHub, I experienced this issues.
-```
----------------------------------------------------------------------------
-ModuleNotFoundError                       Traceback (most recent call last)
-<ipython-input-8-10b645f07abd> in <module>
-      1 # Run this cell first!
-      2 
-----> 3 from helpers import Map, load_map_10, load_map_40, show_map
-      4 import math
-      5 
+- The notebook will execute in Markdown form and include some data visualization to show the actual performance of kalmanfilter vs. lidar vs. round truth.
 
-~\python-workspace\Route_Planner\helpers.py in <module>
-      2 import networkx as nx
-      3 import pickle
-----> 4 import plotly.plotly as py
-      5 import random
-      6 from plotly.graph_objs import *
-
-ModuleNotFoundError: No module named 'plotly'
-```
-- Fixxed: If you are using Anaconda, open Anaconda Navigator and launch cmd prompt (cmd.exe) from there. Then run 'pip install plotly'.
-```
-pip install plotly
-```
-- If this not fix your issues, please do a search. Here is some good information: [GitHub](https://github.com/plotly/plotly.py/issues/1660) or [plotly](https://plotly.com/python/troubleshooting/)
-
-- The notebook will execute in Markdown form and include the visualization of the map
-
-![alt]()
-
-- The program was working perfectly fine when I code it in the Udacity.com workspace. You may try it [here](https://classroom.udacity.com/nanodegrees/nd113/parts/ff875ac7-e7c7-40ec-8a79-8fce37d93bb2/modules/e3ba7f5e-56e5-4a40-9b21-0f7a130d3074/lessons/b1e11f40-418c-4292-af6f-56ac2603e868/concepts/498d1011-019d-4768-bd46-f476b68c2c4b) if you are member of Udacity. 
-
+![alt](https://github.com/jackyhuynh/kalmanFilter-app/blob/main/src/picture/1.PNG)
 ## Deployment
 
-Route PLanner class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or self-driving car. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still help human each day.
-Please refer to my notebook for a better understanding of implementation.
+Matrices class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or self-driving car.
+It turns out that using multiple sensors like radar and lidar at the same time, will give even better results. Using more than one type of sensor at once is called sensor fusion, which is used in Self-Driving Car applications.
+Please refer to my notebook for better understanding.
 
 ## Built With
 
