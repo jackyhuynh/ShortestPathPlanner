@@ -41,7 +41,7 @@ A step by step series of examples that tell you how to get a development envirom
 Explain how to run the automated tests for this system:
 - There is no download IDE need, all you need is download all the src to your machine and run it.
 - Using Jupiter Notebook
-- Navigate to the file Kahman_Filter_Implementation.ipynb
+- Navigate to the file .ipynb
 - hit:
 
 ```
