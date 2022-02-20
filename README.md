@@ -1,4 +1,4 @@
-# Fastest_Route_Planner
+# Fastest Route Planner
 
 ## Introduction
 Implementation of the A* Search Algorithm to solve the Fastest Route Search problem. One particular search problem is especially relevant to self-driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explanation can be learned at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
