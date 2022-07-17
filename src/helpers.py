@@ -95,7 +95,7 @@ def load_map_40():
 def show_map(M, start=None, goal=None, path=None):
     G = M._graph
     pos = nx.get_node_attributes(G, 'pos')
-    edge_trace = Scatter(
+    edge_trace = py.Scatter(
     x=[],
     y=[],
     line=Line(width=0.5,color='#888'),
@@ -108,7 +108,7 @@ def show_map(M, start=None, goal=None, path=None):
         edge_trace['x'] += [x0, x1, None]
         edge_trace['y'] += [y0, y1, None]
 
-    node_trace = Scatter(
+    node_trace = py.Scatter(
         x=[],
         y=[],
         text=[],
